@@ -11,8 +11,6 @@ body {
 	background-repeat: no-repeat;
 	font-family: 'Lato', sans-serif;
 	color: #2c3e50;
-
-	/* adobe garamond regular and gill sans light*/
 }
 html, body {
 	margin: 0;
@@ -37,7 +35,6 @@ h6 {
 	max-width: 100%;
 }
 .company-name { 
-	/*font-family: Impact, Charcoal, sans-serif;*/
 	width: 78.5%;
 	max-width: 80%;
 	border: 1px solid black;
@@ -49,7 +46,6 @@ h6 {
 	text-align: center;
 }
 .nav-bar {
-	/*font-family: Impact, Charcoal, sans-serif;*/
 	width: 78.5%;
 	max-width: 80%;
 	clear: left;
@@ -109,7 +105,7 @@ h6 {
 	padding: 10px;
 	text-align: right;
 }
-.itemList {     /* look up rgb of #d49e99 and #74525f */
+.itemList {     
 	width: 98%;
 	max-width: 100%;
 	display: inline-block;
@@ -170,123 +166,49 @@ h6 {
 }
 
 /* screen size smaller than 1137 */
-@media screen and (max-width: 1130) {
+@media screen and (max-width: 1136px) {
 	/* HEADER STYLES */
 	.logo {
 		width: 15%;
 		max-width: 20%;
 	}
 	.company-name { 
-		/*font-family: Impact, Charcoal, sans-serif;*/
-		width: 78.5%;
+		width: 75%;
+		margin-left: 30px;
 		max-width: 80%;
-		border: 1px solid black;
-		margin-top: 20px;
-		background-color: rgba(236, 240, 241, 0.6);
-		clear: left;
-		margin-right: 0;
-		display: inline-block;
-		text-align: center;
 	}
 	.nav-bar {
-		/*font-family: Impact, Charcoal, sans-serif;*/
-		width: 78.5%;
+		width: 75%;
+		margin-left: 30px;
 		max-width: 80%;
-		clear: left;
-		background-color: rgba(64, 65, 72, 0.9);
-		border: 1px solid black;
-		color: lightgrey;
-		text-decoration: none;
-		text-align: right;
-		margin-bottom: 20px;
-		display: inline-block;
-	}
-	.nav-bar li {
-		display: inline;
-		padding: 15px;
-		text-align: right;
-	}
-
-	/* SIDEBAR STYLES */
-	.aside {
-		width: 15%;
-		max-width: 20%;
-		border: 1px solid black;
-		float: left;
-		clear: both;
-		padding: 15px;
-		text-align: center;
-		background-color: rgba(236, 240, 241, 0.8);
 	}
 
 	/* MAIN SITE CONTENT STYLES */
 	.main-content {
-		width: 78%;
-		max-width: 80%;
-		border: 1px solid black;
-		clear: left;
-		padding: 1px;
-		margin-right: 0;
-		background-color: rgba(212, 158, 153, 0.6);
-		display: inline-block;
+		margin-left: 25px;
 	}
 
 	.filter {
-		width: 98%;
-		border: 1px solid black;
-		display: inline-block;
-		text-align: center;
-		background-color: rgba(236, 240, 241, 0.8);
-		margin-bottom: 20px;
-	}
-	.filter h3 {
-		display: inline-block;
-		text-align: right;
-		margin-left: 30px;
-	}
-	.filter p {
-		display: inline;
-		padding: 10px;
-		text-align: right;
-	}
-	.itemList {     /* look up rgb of #d49e99 and #74525f */
-		width: 98%;
-		max-width: 100%;
-		display: inline-block;
-		padding: 1px;
-		padding-left: 65px;
-		margin-right: 0;
-		clear: none;
-		margin: auto;
-		margin-bottom: 50px;
-	}
-	.item {
-		width: 28%;
-		max-width: 50%;
-		border: 1px solid black;
-		display: inline-block;
-		padding: 1px;
-		background-color: rgba(236, 240, 241, 0.8);
-		margin-bottom: 5px;
+		margin-left: 5px;
 	}
 	.itemImg {
-		max-width: 50%;
-		margin: 15px;
-		z-index: 1;
-		float: left;
-	}
-	.itemImg img{
-		max-width: 90%;
+		max-width: 43%;
+		margin-right: 5px;
 	}
 	.itemInfo {
-		display: inline;
-		clear: left;
+		max-width: 40%;
 	}
 	.item p {
 		padding-left: 2px;
 	}
 	.itemIcon {
 		display: none;
+	}
+
+	/* FOOTER STYLES */
+	.footer {
+		margin-top: 350px;
+		padding: 5px;
 	}
 
 }
