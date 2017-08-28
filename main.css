@@ -1,0 +1,108 @@
+body {
+	background-image: url("./img/coffeedesk.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #ecf0f1;
+	font-family: 'Lato', sans-serif;
+	color: #2c3e50;
+}
+h1, h2 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+/* HEADER STYLES */
+.logo {
+	width: 15%;
+	max-width: 25%;
+	float: left;
+	margin: 20px 20px 20px 12px;
+	border: 3px solid #404148;
+}
+.logo img {
+	max-width: 100%;
+}
+.company-name { 
+	width: 78.5%;
+	max-width: 80%;
+	border: 1px solid black;
+	margin-top: 20px;
+	background-color: rgba(236, 240, 241, 0.6);
+	clear: left;
+	margin-right: 0;
+	display: inline-block;
+	text-align: center;
+}
+/* NAVBAR STYLES */
+.navbar {
+	clear: left;
+	margin-left-right: 50px;
+}
+.nav-bar {
+	width: 78.5%;
+	max-width: 80%;
+	clear: left;
+	background-color: rgba(64, 65, 72, 0.9);
+	border: 1px solid black;
+	color: lightgrey;
+	text-decoration: none;
+	text-align: right;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.nav-bar li {
+	display: inline;
+	padding: 15px;
+	text-align: right;
+}
+.nav-bar a {
+	text-decoration: none;
+}
+/* ITEM STYLES */
+.item {
+	width: 29%;
+	max-width: 50%;
+	border: 1px solid black;
+	display: inline-block;
+	padding: 1px;
+	background-color: rgba(236, 240, 241, 0.8);
+	margin: 15px;
+}
+.itemImg {
+	max-width: 90%;
+	margin: 15px;
+	z-index: 1;
+	float: left;
+}
+.itemImg img{
+	max-width: 90%;
+}
+.itemInfo {
+	display: inline;
+	clear: left;
+}
+.item a {
+	text-decoration: none;
+	color: #000;
+	padding: 2px;
+}
+.item p {
+	padding-left: 5px;
+}
+span {
+	padding: 20px;
+	padding-bottom: 8px;
+	margin: 0;
+	float: right;
+	display: inline-block;
+}
+
+/* FOOTER STYLES */
+.footer {
+	max-width: 100%;
+	background-color: #004466;
+	border: 1px solid black;
+	clear: both;
+	margin-top: 225px;
+	color: #f0ffff;
+	padding: 10px;
+}

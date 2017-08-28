@@ -45,6 +45,10 @@ h6 {
 	display: inline-block;
 	text-align: center;
 }
+.navbar {
+	clear: left;
+	margin-left-right: 50px;
+}
 .nav-bar {
 	width: 78.5%;
 	max-width: 80%;
