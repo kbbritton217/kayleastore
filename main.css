@@ -12,18 +12,18 @@ h1, h2 {
 
 /* HEADER STYLES */
 .logo {
-	width: 15%;
-	max-width: 25%;
+	width: 24%;
+	max-width: 24%;
 	float: left;
-	margin: 20px 20px 20px 12px;
+	margin: 20px 12px 20px 12px;
 	border: 3px solid #404148;
 }
 .logo img {
 	max-width: 100%;
 }
 .company-name { 
-	width: 78.5%;
-	max-width: 80%;
+	width: 73%;
+	max-width: 74%;
 	border: 1px solid black;
 	margin-top: 20px;
 	background-color: rgba(236, 240, 241, 0.6);
@@ -31,6 +31,11 @@ h1, h2 {
 	margin-right: 0;
 	display: inline-block;
 	text-align: center;
+	font-weight: bold;
+}
+.company-name a:hover {
+	text-decoration: none;
+	color: #008b8b;
 }
 /* NAVBAR STYLES */
 .navbar {
@@ -38,8 +43,8 @@ h1, h2 {
 	margin-left-right: 50px;
 }
 .nav-bar {
-	width: 78.5%;
-	max-width: 80%;
+	width: 73%;
+	max-width: 74%;
 	clear: left;
 	background-color: rgba(64, 65, 72, 0.9);
 	border: 1px solid black;
@@ -56,6 +61,10 @@ h1, h2 {
 }
 .nav-bar a {
 	text-decoration: none;
+}
+.nav-bar a:hover {
+	text-decoration: none;
+	color: #00ffff;
 }
 .dropdown {
 	position: relative;
@@ -86,7 +95,10 @@ h1, h2 {
 .dropdown:hover li {
 	background-color: ;
 }
-
+.pageh {
+	margin-top: 50px;
+	margin-bottom: 0;
+}
 
 /* ITEM STYLES */
 .item {
@@ -96,7 +108,7 @@ h1, h2 {
 	display: inline-block;
 	padding: 1px;
 	background-color: rgba(236, 240, 241, 0.8);
-	margin: 15px;
+	margin: 45px;
 }
 .itemImg {
 	max-width: 90%;
